@@ -52,10 +52,13 @@ Al seleccionar el dll, debiera actualizarse el listado de los plugins y al final
 
 En la carpeta `Modelo_SPC` se encuentra el archivo `generateMeshes` el cual toma los archivos .step y los transforma en formato .vtk y .stl.
 Para este ejemplo, se utilizó uno de los proyectos de jammin gripper. El archivo A.STEP corresponde a la estructura de silicona y el archivo B.STEP corresponde a la cavidad interna del gripper. 
+
 ## A.STEP
 <img width="818" height="899" alt="image" src="https://github.com/user-attachments/assets/0dee13e3-5f30-47fa-8cde-33d70faf2fc5" />
+
 ## B.STEP
 <img width="753" height="853" alt="image" src="https://github.com/user-attachments/assets/57df0fc6-b0ad-44c8-afc1-bbd061d9cda2" />
+
 Al cerrar las ventanas emergentes de gmsh, podemos observar que en la carpeta, se han generado 3 archivos nuevos. 
 - A.vtk que es el modelo 3D de la silicona 
 - B.stl que es el modelo 2D de la cavidad de aire 
