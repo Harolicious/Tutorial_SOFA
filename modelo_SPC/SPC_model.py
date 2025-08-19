@@ -49,48 +49,48 @@ def createScene(rootNode):
                 rootNode.addObject('RequiredPlugin', name='Sofa.Component.Topology.Mapping') # Needed to use components [Tetra2TriangleTopologicalMapping]
                 rootNode.addObject('FreeMotionAnimationLoop')
                 rootNode.addObject('GenericConstraintSolver', maxIterations=100, tolerance = 0.0000001)
-                rootNode.dt = 0.2
+                rootNode.dt = 0.1
 
-		#cubito
-                cubito = rootNode.addChild('cubito')
-                cubito.addObject('EulerImplicitSolver', name='odesolver')
+		#gripper
+                gripper = rootNode.addChild('gripper')
+                gripper.addObject('EulerImplicitSolver', name='odesolver')
                 
-                cubito.addObject('SparseLDLSolver', name='preconditioner')
+                gripper.addObject('SparseLDLSolver', name='preconditioner')
 
-                cubito.addObject('ShewchukPCGLinearSolver', iterations=15, name='linearsolver', tolerance=1e-5, preconditioners='preconditioner', use_precond=True, update_step=1)
+                gripper.addObject('ShewchukPCGLinearSolver', iterations=15, name='linearsolver', tolerance=1e-5, preconditioners='preconditioner', use_precond=True, update_step=1)
 
-                cubito.addObject('MeshVTKLoader', name='loader', filename='A.vtk')
-                cubito.addObject('TetrahedronSetTopologyContainer', src='@loader', name='container')
-                cubito.addObject('TetrahedronSetTopologyModifier')
+                gripper.addObject('MeshVTKLoader', name='loader', filename='A.vtk')
+                gripper.addObject('TetrahedronSetTopologyContainer', src='@loader', name='container')
+                gripper.addObject('TetrahedronSetTopologyModifier')
 
-                cubito.addObject('MechanicalObject', name='tetras', template='Vec3', showIndices=False)
-                cubito.addObject('UniformMass', totalMass=0.5)
+                gripper.addObject('MechanicalObject', name='tetras', template='Vec3', showIndices=False)
+                gripper.addObject('UniformMass', totalMass=0.5)
                 
     
-                cubito.addObject('TetrahedronFEMForceField', template='Vec3', name='FEM', method='large', poissonRatio=0.4,  youngModulus=1000000)
+                gripper.addObject('TetrahedronFEMForceField', template='Vec3', name='FEM', method='large', poissonRatio=0.4,  youngModulus=1000000)
 
-                cubito.addObject('BoxROI', name='boxROI', box=[20, 20, 50,  -20, -20, 35], drawBoxes=True, position="@tetras.rest_position", tetrahedra="@container.tetrahedra")
-                cubito.addObject('RestShapeSpringsForceField', points='@boxROI.indices', stiffness=1e12)
-                cubito.addObject('GenericConstraintCorrection', linearSolver='@preconditioner')
+                gripper.addObject('BoxROI', name='boxROI', box=[20, 20, 50,  -20, -20, 35], drawBoxes=True, position="@tetras.rest_position", tetrahedra="@container.tetrahedra")
+                gripper.addObject('RestShapeSpringsForceField', points='@boxROI.indices', stiffness=1e12)
+                gripper.addObject('GenericConstraintCorrection', linearSolver='@preconditioner')
 
                               
                 
-		#cubito/cavity
+		#gripper/cavity
                 
         
-                cavity = cubito.addChild('cavity')
+                cavity = gripper.addChild('cavity')
                 cavity.addObject('MeshSTLLoader', name='loader', filename='B.stl')
                 cavity.addObject('MeshTopology', src='@loader', name='topo')
                 cavity.addObject('MechanicalObject', name='cavity')
-                cavity.addObject('SurfacePressureConstraint', triangles='@topo.triangles', value=-1500, valueType=0)
+                cavity.addObject('SurfacePressureConstraint', triangles='@topo.triangles', value=-1600, valueType=0)
                 cavity.addObject('BarycentricMapping', name='mapping',  mapForces=True, mapMasses=True)
 
 
-		#cubito/cubitoVisu
-                cubitoVisu = cubito.addChild('visu')
-                cubitoVisu.addObject("MeshSTLLoader", filename="A_visu.stl", name="loader")
-                cubitoVisu.addObject("OglModel", src="@loader")
-                cubitoVisu.addObject("BarycentricMapping")
+		#gripper/gripperVisu
+                gripperVisu = gripper.addChild('visu')
+                gripperVisu.addObject("MeshSTLLoader", filename="A_visu.stl", name="loader")
+                gripperVisu.addObject("OglModel", src="@loader")
+                gripperVisu.addObject("BarycentricMapping")
 
 
                 return rootNode
