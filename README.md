@@ -74,9 +74,9 @@ Si quisieran realizar modificaciones e ir probando cambios en la simulacion, pue
 
 
 <img align="center" width="700" height="597" alt="image" src="https://github.com/user-attachments/assets/a49055fc-43cc-4f28-9fb4-50b5da89c848" />
-<img width="333" height="599" alt="image" src="https://github.com/user-attachments/assets/b5d4adb2-f88d-4b18-910a-db8a2fd47a7b" />
-<img width="333" height="599" alt="image" src="https://github.com/user-attachments/assets/82f71598-1ec5-408a-8022-6597524b487f" />
-<img width="333" height="598" alt="image" src="https://github.com/user-attachments/assets/c09c5ca0-4c7b-46e7-955c-b79f8d47d5aa" />
+<img width="250" height="599" alt="image" src="https://github.com/user-attachments/assets/b5d4adb2-f88d-4b18-910a-db8a2fd47a7b" />
+<img width="250" height="599" alt="image" src="https://github.com/user-attachments/assets/82f71598-1ec5-408a-8022-6597524b487f" />
+<img width="250" height="598" alt="image" src="https://github.com/user-attachments/assets/c09c5ca0-4c7b-46e7-955c-b79f8d47d5aa" />
 
 
 
