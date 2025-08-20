@@ -1,3 +1,7 @@
+# GitClone
+
+`git clone https://github.com/Harolicious/Tutorial_SOFA`
+
 # Descargar SOFA v23.06.00
 
 Para poder descargar la version de SOFA que utilizaremos deben ir a https://github.com/sofa-framework/sofa/releases/tag/v23.06.00 y descargar `SOFA_v23.06.00_Win64.exe` o tambien pueden hacer clic [aqui](https://github.com/sofa-framework/sofa/releases/download/v23.06.00/SOFA_v23.06.00_Win64.exe)
