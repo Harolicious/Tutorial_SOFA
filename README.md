@@ -1,3 +1,6 @@
+# Instalacion Git
+Lo primero que debemos hacer es la instacion de `git` para ello pueden ir a https://git-scm.com/downloads y descargar la ultima version.
+
 
 `git clone https://github.com/Harolicious/Tutorial_SOFA`
 
