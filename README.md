@@ -4,8 +4,21 @@ Lo primero que debemos hacer es la instacion de `git` para ello pueden ir a http
 Para seguir los pasos de instalación se recomienda utilizar el siguiente archivo
 [Instalacion_Git.pdf](https://github.com/user-attachments/files/21926400/Instalacion_Git.pdf)
 
+`git clone https://github.com/Harolicious/Tutorial_SOFA.git`
 
-`git clone https://github.com/Harolicious/Tutorial_SOFA`
+# Instalacion python 3.8.10
+
+Instalen python 3.10 https://www.python.org/downloads/release/python-3100/
+
+1. Instalar Microsoft Visual C++ 2019 Redistributable.
+2. Instalar Python 3.10 + Numpy + Scipy debido a que se requiere utilizar un plugin SofaPython3.
+   - Descargar e instalar Python 3.10 (amd64).
+   - Asegúrate de habilitar la instalación de PIP y añadirla a PATH.
+   - Luego, abre una consola y ejecuta python -V && python -m pip install numpy scipy.
+   - Tambien es necesario que instales gmsh python -m pip install gmsh
+
+
+# Instalacion 
 
 # Descargar SOFA v23.06.00
 
