@@ -1,0 +1,11 @@
+name: Robotica-SOFA
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.10
+  - pybullet
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - scipy==1.8.0
+      - gmsh==4.12.2
