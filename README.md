@@ -9,12 +9,11 @@ Para seguir los pasos de instalación se recomienda utilizar el siguiente archiv
 Instalen python 3.10 https://www.python.org/downloads/release/python-3100/ o hagan clic [aquí](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) 
 
 1. Instalar Microsoft Visual C++ 2019 Redistributable. (es posible que no lo tengan)
-2. Instalar Python 3.10 + Numpy + Scipy debido a que se requiere utilizar un plugin SofaPython3.
+2. Instalar Python 3.10 
    - Descargar e instalar Python 3.10 (amd64).
    - Check en `Add Python 3.10 to PATH`. !
    - Asegúrate de habilitar la instalación de PIP y añadirla a PATH.
-   - Luego, abre una consola y ejecuta python -V && python -m pip install numpy scipy.
-   - Tambien es necesario que instales gmsh python -m pip install gmsh
+
 
 # Gitclone
 
@@ -28,6 +27,11 @@ Aqui se deberá ingresar los siguientes codigos:
 3. `cd Tutorial_SOFA/` 
 
 <img width="581" height="370" alt="image" src="https://github.com/user-attachments/assets/eb09e6a7-6345-4475-966d-b200a7f132bc" />
+
+4. ` pip install -r requeriments.txt` Con esto se instalaran las versiones necesarias para Numpy, Scipy y Gmsh. 
+Numpy y Scipy son necesarios para utilizar el plugin SofaPython3. Gmsh es un generador de mallas de elementos finitos 3D.
+
+<img width="791" height="454" alt="image" src="https://github.com/user-attachments/assets/3ca035b4-53a7-4514-8420-8399c84f66d3" />
 
 
 
