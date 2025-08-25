@@ -4,8 +4,6 @@ Lo primero que debemos hacer es la instacion de `git` para ello pueden ir a http
 Para seguir los pasos de instalación se recomienda utilizar el siguiente archivo
 [Instalacion_Git.pdf](https://github.com/user-attachments/files/21926400/Instalacion_Git.pdf)
 
-`git clone https://github.com/Harolicious/Tutorial_SOFA.git`
-
 # Instalacion python 3.10
 
 Instalen python 3.10 https://www.python.org/downloads/release/python-3100/ o hagan clic [aquí](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) 
@@ -18,7 +16,23 @@ Instalen python 3.10 https://www.python.org/downloads/release/python-3100/ o hag
    - Luego, abre una consola y ejecuta python -V && python -m pip install numpy scipy.
    - Tambien es necesario que instales gmsh python -m pip install gmsh
 
+# Gitclone
 
+Ejecuta el programa GitBash, se debiera abrir una ventana como lo siguiente.
+
+<img width="581" height="370" alt="image" src="https://github.com/user-attachments/assets/fe1666aa-4247-4ea9-8ff9-b8777dfe13b9" />
+
+Aqui se deberá ingresar los siguientes codigos:
+1. `cd \Desktop` Crea la carpeta en el escritorio, pueden elegir cualquier otra
+2. `git clone https://github.com/Harolicious/Tutorial_SOFA.git` Clona la carpeta del git al escritorio 
+3. `cd Tutorial_SOFA/` 
+
+<img width="581" height="370" alt="image" src="https://github.com/user-attachments/assets/eb09e6a7-6345-4475-966d-b200a7f132bc" />
+
+
+
+
+`git clone https://github.com/Harolicious/Tutorial_SOFA.git`
 
 # Descargar SOFA v23.06.00
 
