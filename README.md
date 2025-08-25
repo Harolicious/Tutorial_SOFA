@@ -48,7 +48,7 @@ En GitBash ejecuten el codigo `which python` y les debiera dar la direccion dond
 En spyder deben elegir `Usar el siguiente interprete`, cliquear en la carpeta donde esta el python 3.10 (la dirección entregada en GitBash) y seleccionar el python.exe
 <img width="600" height="694" alt="image" src="https://github.com/user-attachments/assets/f1344b91-59b8-47b0-95e4-ab66e25f9fc0" />
 
-En Terminal 1/A le das clic derecho y le das reiniciar el nucleo 
+En Terminal 1/A le das clic derecho y le das reiniciar el nucleo. 
 <img width="500" height="504" alt="image" src="https://github.com/user-attachments/assets/2b15e30e-bc1f-4343-9b53-d5ba6cc21572" />
 
 Debiera dar un error, estas bien! 
