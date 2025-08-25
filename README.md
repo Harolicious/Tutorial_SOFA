@@ -19,33 +19,57 @@ Instalen python 3.10 https://www.python.org/downloads/release/python-3100/ o hag
 
 Ejecuta el programa GitBash, se debiera abrir una ventana como lo siguiente.
 
-<img width="581" height="370" alt="image" src="https://github.com/user-attachments/assets/fe1666aa-4247-4ea9-8ff9-b8777dfe13b9" />
+<img width="500" height="370" alt="image" src="https://github.com/user-attachments/assets/fe1666aa-4247-4ea9-8ff9-b8777dfe13b9" />
 
 Aqui se deberá ingresar los siguientes codigos:
 1. `cd \Desktop` Crea la carpeta en el escritorio, pueden elegir cualquier otra
 2. `git clone https://github.com/Harolicious/Tutorial_SOFA.git` Clona la carpeta del git al escritorio 
 3. `cd Tutorial_SOFA/` 
 
-<img width="581" height="370" alt="image" src="https://github.com/user-attachments/assets/eb09e6a7-6345-4475-966d-b200a7f132bc" />
+<img width="500" height="370" alt="image" src="https://github.com/user-attachments/assets/eb09e6a7-6345-4475-966d-b200a7f132bc" />
 
 4. ` pip install -r requeriments.txt` Con esto se instalaran las versiones necesarias para Numpy, Scipy y Gmsh. 
 Numpy y Scipy son necesarios para utilizar el plugin SofaPython3. Gmsh es un generador de mallas de elementos finitos 3D.
 
-<img width="791" height="454" alt="image" src="https://github.com/user-attachments/assets/3ca035b4-53a7-4514-8420-8399c84f66d3" />
+<img width="500" height="454" alt="image" src="https://github.com/user-attachments/assets/3ca035b4-53a7-4514-8420-8399c84f66d3" />
+
+# Spyder-IDE
+
+Pueden utilizar cualquier editor de código o entorno de desarrollo de su preferencia. En mi caso trabajaré con [Spyder-IDE](https://www.spyder-ide.org/).
+Al abrir Spyder, pueden observar en la terminal 1/A que tiene una version de python diferente a la instalada previamente. Para ello debemos cambiar el interprete de python.
+Vayan a `Herramientas` > `Preferencias` > `Interprete de Python` Aqui la seleccionada es la interna de Spyder
+
+<img width="500" height="694" alt="image" src="https://github.com/user-attachments/assets/72cae6e1-83bc-4283-95d5-2a6149223dc9" />
+
+En GitBash ejecuten el codigo `which python` y les debiera dar la direccion donde esta el python instalado. 
+<img width="500" height="454" alt="image" src="https://github.com/user-attachments/assets/b3e0d721-b3b0-466f-95d1-5a92ae9ccf9d" />
 
 
+En spyder deben elegir `Usar el siguiente interprete`, cliquear en la carpeta donde esta el python 3.10 (la dirección entregada en GitBash) y seleccionar el python.exe
+<img width="902" height="694" alt="image" src="https://github.com/user-attachments/assets/f1344b91-59b8-47b0-95e4-ab66e25f9fc0" />
+
+En Terminal 1/A le das clic derecho y le das reiniciar el nucleo 
+<img width="619" height="504" alt="image" src="https://github.com/user-attachments/assets/2b15e30e-bc1f-4343-9b53-d5ba6cc21572" />
+
+Debiera dar un error, estas bien! 
+<img width="897" height="380" alt="image" src="https://github.com/user-attachments/assets/77bbbd1d-0783-422a-9a31-1a2049e6e3d8" />
+
+En GitBash ejecuta el codigo `pip install spyder-kernels==3.0`
+<img width="791" height="454" alt="image" src="https://github.com/user-attachments/assets/ba6b3121-a3a6-457a-99ff-f346abf871c0" />
+
+Regresamos a Spyder y en la Terminal 1/A le das clic derecho y le das reiniciar el nucleo 
+<img width="632" height="453" alt="image" src="https://github.com/user-attachments/assets/5affd7cf-90aa-41e2-8308-cc91fc5eb9f5" />
+
+Con esto ya estaría todo listo !
+pueden en la terminal escribir `import gmsh` y si no pasa nada es porque esta todo bien! 
+Si escriben `print(gmsh.__version__)` les debiera salir la version `4.12.2`
 
 
-`git clone https://github.com/Harolicious/Tutorial_SOFA.git`
-
-# Descargar SOFA v23.06.00
+# Descarga e Inicio de SOFA v23.06.00
 
 Para poder descargar la version de SOFA que utilizaremos deben ir a https://github.com/sofa-framework/sofa/releases/tag/v23.06.00 y descargar `SOFA_v23.06.00_Win64.exe` o tambien pueden hacer clic [aqui](https://github.com/sofa-framework/sofa/releases/download/v23.06.00/SOFA_v23.06.00_Win64.exe)
 
-
 <img width="500" height="390" alt="image" align="center" src="https://github.com/user-attachments/assets/69163191-bacb-45e2-90b9-3a5946abcfde" />
-
-# Inicializacion de SOFA
 
 Ejecutar el programa llamado `runSofa`. Se abrirá la consola y luego el programa 
 
