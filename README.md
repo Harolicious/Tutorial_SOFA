@@ -6,13 +6,14 @@ Para seguir los pasos de instalación se recomienda utilizar el siguiente archiv
 
 `git clone https://github.com/Harolicious/Tutorial_SOFA.git`
 
-# Instalacion python 3.8.10
+# Instalacion python 3.10
 
-Instalen python 3.10 https://www.python.org/downloads/release/python-3100/
+Instalen python 3.10 https://www.python.org/downloads/release/python-3100/ o hagan clic [aquí](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) 
 
-1. Instalar Microsoft Visual C++ 2019 Redistributable.
+1. Instalar Microsoft Visual C++ 2019 Redistributable. (es posible que no lo tengan)
 2. Instalar Python 3.10 + Numpy + Scipy debido a que se requiere utilizar un plugin SofaPython3.
    - Descargar e instalar Python 3.10 (amd64).
+   - Check en `Add Python 3.10 to PATH`. !
    - Asegúrate de habilitar la instalación de PIP y añadirla a PATH.
    - Luego, abre una consola y ejecuta python -V && python -m pip install numpy scipy.
    - Tambien es necesario que instales gmsh python -m pip install gmsh
