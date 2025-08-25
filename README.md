@@ -44,17 +44,18 @@ Vayan a `Herramientas` > `Preferencias` > `Interprete de Python` Aqui la selecci
 En GitBash ejecuten el codigo `which python` y les debiera dar la direccion donde esta el python instalado. 
 <img width="500" height="454" alt="image" src="https://github.com/user-attachments/assets/b3e0d721-b3b0-466f-95d1-5a92ae9ccf9d" />
 
+En spyder deben elegir `Usar el siguiente interprete`, despues clic en la carpeta, busquen con la dirección entregada en GitBash y seleccione python.exe
 
-En spyder deben elegir `Usar el siguiente interprete`, cliquear en la carpeta donde esta el python 3.10 (la dirección entregada en GitBash) y seleccionar el python.exe
 <img width="600" height="694" alt="image" src="https://github.com/user-attachments/assets/f1344b91-59b8-47b0-95e4-ab66e25f9fc0" />
 
 En Terminal 1/A le das clic derecho y le das reiniciar el nucleo. 
+
 <img width="500" height="504" alt="image" src="https://github.com/user-attachments/assets/2b15e30e-bc1f-4343-9b53-d5ba6cc21572" />
 
 Debiera dar un error, estas bien! 
 <img width="897" height="380" alt="image" src="https://github.com/user-attachments/assets/77bbbd1d-0783-422a-9a31-1a2049e6e3d8" />
 
-En GitBash ejecuta el codigo `pip install spyder-kernels==3.0`
+En GitBash ejecuta el codigo `pip install spyder-kernels==3.0` 
 <img width="600" height="454" alt="image" src="https://github.com/user-attachments/assets/ba6b3121-a3a6-457a-99ff-f346abf871c0" />
 
 Regresamos a Spyder y en la Terminal 1/A le das clic derecho y le das reiniciar el nucleo 
