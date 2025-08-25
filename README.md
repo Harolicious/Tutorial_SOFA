@@ -19,20 +19,11 @@ Instalen python 3.10 https://www.python.org/downloads/release/python-3100/ o hag
    - Tambien es necesario que instales gmsh python -m pip install gmsh
 
 
-# Instalacion 
 
 # Descargar SOFA v23.06.00
 
 Para poder descargar la version de SOFA que utilizaremos deben ir a https://github.com/sofa-framework/sofa/releases/tag/v23.06.00 y descargar `SOFA_v23.06.00_Win64.exe` o tambien pueden hacer clic [aqui](https://github.com/sofa-framework/sofa/releases/download/v23.06.00/SOFA_v23.06.00_Win64.exe)
 
-Deben tener en consideracion lo siguiente:
-
-1. Instalar Microsoft Visual C++ 2019 Redistributable.
-2. Instalar Python 3.8 + Numpy + Scipy debido a que se requiere utilizar un plugin SofaPython3.
-   - Descargar e instalar Python 3.8 (amd64).
-   - Asegúrate de habilitar la instalación de PIP y añadirla a PATH.
-   - Luego, abre una consola y ejecuta python -V && python -m pip install numpy scipy.
-   - Tambien es necesario que instales gmsh python -m pip install gmsh
 
 <img width="500" height="390" alt="image" align="center" src="https://github.com/user-attachments/assets/69163191-bacb-45e2-90b9-3a5946abcfde" />
 
