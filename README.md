@@ -28,7 +28,7 @@ Aqui se deberá ingresar los siguientes codigos:
 
 <img width="500" height="370" alt="image" src="https://github.com/user-attachments/assets/eb09e6a7-6345-4475-966d-b200a7f132bc" />
 
-4. ` pip install -r requeriments.txt` Con esto se instalaran las versiones necesarias para Numpy, Scipy y Gmsh. 
+4. ` pip install -r requirements.txt` Con esto se instalaran las versiones necesarias para Numpy, Scipy y Gmsh. 
 Numpy y Scipy son necesarios para utilizar el plugin SofaPython3. Gmsh es un generador de mallas de elementos finitos 3D.
 
 <img width="500" height="454" alt="image" src="https://github.com/user-attachments/assets/3ca035b4-53a7-4514-8420-8399c84f66d3" />
