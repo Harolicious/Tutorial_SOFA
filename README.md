@@ -12,8 +12,7 @@ Instalen python 3.8.10 https://www.python.org/downloads/release/python-3810/ o h
 2. Instalar Python 3.8.10 
    - Descargar e instalar Python 3.8.10  (amd64).
    - Check en `Add Python 3.8.10 to PATH`. !
-   - Asegúrate de habilitar la instalación de PIP y añadirla a PATH.
-   - 
+   
 <img width="500" height="410" alt="image" src="https://github.com/user-attachments/assets/705e78f4-cb5c-4e71-b8cc-84a232620764" />
 
 
