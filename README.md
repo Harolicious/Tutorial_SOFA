@@ -4,15 +4,17 @@ Lo primero que debemos hacer es la instacion de `git` para ello pueden ir a http
 Para seguir los pasos de instalación se recomienda utilizar el siguiente archivo
 [Instalacion_Git.pdf](https://github.com/user-attachments/files/21926400/Instalacion_Git.pdf)
 
-# Instalacion python 3.10
+# Instalacion python 3.8.10
 
-Instalen python 3.10 https://www.python.org/downloads/release/python-3100/ o hagan clic [aquí](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) 
+Instalen python 3.8.10 https://www.python.org/downloads/release/python-3810/ o hagan clic [aquí](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe) Windowsx64 
 
 1. Instalar Microsoft Visual C++ 2019 Redistributable. (es posible que no lo tengan)
-2. Instalar Python 3.10 
-   - Descargar e instalar Python 3.10 (amd64).
-   - Check en `Add Python 3.10 to PATH`. !
+2. Instalar Python 3.8.10 
+   - Descargar e instalar Python 3.8.10  (amd64).
+   - Check en `Add Python 3.8.10 to PATH`. !
    - Asegúrate de habilitar la instalación de PIP y añadirla a PATH.
+   - 
+<img width="500" height="410" alt="image" src="https://github.com/user-attachments/assets/705e78f4-cb5c-4e71-b8cc-84a232620764" />
 
 
 # Gitclone
