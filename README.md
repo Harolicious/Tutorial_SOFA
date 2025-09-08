@@ -40,14 +40,17 @@ Pueden utilizar cualquier editor de código o entorno de desarrollo de su prefer
 Al abrir Spyder, pueden observar en la terminal 1/A que tiene una version de python diferente a la instalada previamente. Para ello debemos cambiar el interprete de python.
 Vayan a `Herramientas` > `Preferencias` > `Interprete de Python` Aqui la seleccionada es la interna de Spyder
 
-<img width="500" height="694" alt="image" src="https://github.com/user-attachments/assets/72cae6e1-83bc-4283-95d5-2a6149223dc9" />
+<img width="500" height="692" alt="image" src="https://github.com/user-attachments/assets/45482472-d1ce-4b5d-9d58-fa8c50bc23f0" />
 
 En GitBash ejecuten el codigo `which python` y les debiera dar la direccion donde esta el python instalado. 
-<img width="500" height="454" alt="image" src="https://github.com/user-attachments/assets/b3e0d721-b3b0-466f-95d1-5a92ae9ccf9d" />
+
+<img width="500" height="370" alt="image" src="https://github.com/user-attachments/assets/073d4284-cf51-4d8f-9b7e-68ffcfa6cc94" />
 
 En spyder deben elegir `Usar el siguiente interprete`, despues clic en la carpeta, busquen con la dirección entregada en GitBash y seleccione python.exe
 
-<img width="600" height="694" alt="image" src="https://github.com/user-attachments/assets/f1344b91-59b8-47b0-95e4-ab66e25f9fc0" />
+<img width="600" height="692" alt="image" src="https://github.com/user-attachments/assets/8cbf7ea1-2d31-45ba-90b6-4ea52e88cd91" />
+
+<img width="600" height="692" alt="image" src="https://github.com/user-attachments/assets/06a4967d-8e8d-4346-bdc3-c747fcbb8b57" />
 
 En Terminal 1/A le das clic derecho y le das reiniciar el nucleo. 
 
