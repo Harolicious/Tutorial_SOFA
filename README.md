@@ -56,7 +56,7 @@ En Terminal 1/A le das clic derecho y le das reiniciar el nucleo.
 
 <img width="500" height="504" alt="image" src="https://github.com/user-attachments/assets/2b15e30e-bc1f-4343-9b53-d5ba6cc21572" />
 
-Debiera dar un error, estas bien! 
+Si te da un error, tranqui! lo más seguro es que te falte instalar algo más. Si no te dio problemas Parabienes!
 <img width="897" height="380" alt="image" src="https://github.com/user-attachments/assets/77bbbd1d-0783-422a-9a31-1a2049e6e3d8" />
 
 En GitBash ejecuta el codigo `pip install spyder-kernels==3.0` 
@@ -68,7 +68,6 @@ Regresamos a Spyder y en la Terminal 1/A le das clic derecho y le das reiniciar 
 Con esto ya estaría todo listo!
 
 Pueden en la terminal escribir `import gmsh` y si no pasa nada es porque esta todo bien! Si escriben `print(gmsh.__version__)` les debiera salir la version `4.12.2`
-
 
 # Descarga e Inicio de SOFA v23.06.00
 
@@ -131,7 +130,7 @@ Desde acá pueden abrir el archivo `SPC_model` en el programa `runSofa`. Si todo
 Si quisieran realizar modificaciones e ir probando cambios en la simulacion, pueden abrir el archivo `SPC_model` en su editor de codigo favorito. Aqui esta toda la programación del gripper en SOFA.
 
 
-<img align="center" width="700" height="597" alt="image" src="https://github.com/user-attachments/assets/a49055fc-43cc-4f28-9fb4-50b5da89c848" />
+<img align="center" width="700" height="597" alt="image" src="https://github.com/user-attachments/assets/a49055fc-43cc-4f28-9fb4-50b5da89c848" /> \\
 <img width="250" height="599" alt="image" src="https://github.com/user-attachments/assets/b5d4adb2-f88d-4b18-910a-db8a2fd47a7b" />
 <img width="250" height="599" alt="image" src="https://github.com/user-attachments/assets/82f71598-1ec5-408a-8022-6597524b487f" />
 <img width="250" height="598" alt="image" src="https://github.com/user-attachments/assets/c09c5ca0-4c7b-46e7-955c-b79f8d47d5aa" />
