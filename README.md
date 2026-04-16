@@ -110,18 +110,21 @@ Al seleccionar el dll, debiera actualizarse el listado de los plugins y al final
 
 # GenerateMesh
 
-En la carpeta `Modelo_SPC` se encuentra el archivo `generateMeshes` el cual toma los archivos .step y los transforma en formato .vtk y .stl.
+En la carpeta `Finger_gripper` se encuentra el archivo `generateMeshes` el cual toma los archivos .step y los transforma en formato .vtk y .stl.
 Para este ejemplo, se utilizó uno de los proyectos de jammin gripper. El archivo A.STEP corresponde a la estructura de silicona y el archivo B.STEP corresponde a la cavidad interna del gripper. 
 
-## A.STEP
-<img width="500" alt="image" align="center" src="https://github.com/user-attachments/assets/0dee13e3-5f30-47fa-8cde-33d70faf2fc5" />
+## Dedo_h.STEP
+<img width="1096" height="516" alt="image" src="https://github.com/user-attachments/assets/f7353046-0a9c-4f19-8033-1e4dcd87a3a5" />
 
-## B.STEP
-<img width="500" alt="image" align="center" src="https://github.com/user-attachments/assets/57df0fc6-b0ad-44c8-afc1-bbd061d9cda2" />
+## Alma_h.STEP
+<img width="1096" height="516" alt="image" src="https://github.com/user-attachments/assets/7902d0af-7068-43db-aabd-768929f751b2" />
+
+## Carcasa
+<img width="1096" height="516" alt="image" src="https://github.com/user-attachments/assets/739b2155-c701-4eb1-a440-deb96964642f" />
 
 Al cerrar las ventanas emergentes de gmsh, podemos observar que en la carpeta, se han generado 3 archivos nuevos. 
 - A.vtk que es el modelo 3D de la silicona 
-- B.stl que es el modelo 2D de la cavidad de aire 
+- B.stl que es el modelo 3D de la cavidad de aire 
 - A.stl que es el modelo 2D de la silicona, que se usa solo por fines esteticos.
 
 # Modelo SPC
@@ -129,11 +132,4 @@ Al cerrar las ventanas emergentes de gmsh, podemos observar que en la carpeta, s
 Desde acá pueden abrir el archivo `SPC_model` en el programa `runSofa`. Si todo salio como debiera, ya pueden ejecutar la simulación del gripper y pueden observar su comportamiento.
 Si quisieran realizar modificaciones e ir probando cambios en la simulacion, pueden abrir el archivo `SPC_model` en su editor de codigo favorito. Aqui esta toda la programación del gripper en SOFA.
 
-
-<img align="center" width="700" height="597" alt="image" src="https://github.com/user-attachments/assets/a49055fc-43cc-4f28-9fb4-50b5da89c848" /> 
-
-![ezgif com-crop](https://github.com/user-attachments/assets/ac3541e3-9ad7-4272-bd32-3ab7eb7cf534)
-
-
-
-
+<img width="1119" height="638" alt="ezgif-12b1a981d5af3101" src="https://github.com/user-attachments/assets/4b51c3a9-9643-4047-b022-acdd46c9d071" />
