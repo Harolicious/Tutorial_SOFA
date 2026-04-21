@@ -59,7 +59,8 @@ En Terminal 1/A le das clic derecho y le das reiniciar el nucleo.
 Si te da un error, tranqui! lo más seguro es que te falte instalar algo más. Si no te dio problemas Parabienes!
 <img width=600 alt="image" src="https://github.com/user-attachments/assets/77bbbd1d-0783-422a-9a31-1a2049e6e3d8" />
 
-En GitBash ejecuta el codigo `pip install spyder-kernels==3.0.*` (esto instala la última versión disponible 3.0.x) 
+En GitBash ejecuta el codigo `pip install spyder-kernels==3.0.*` (esto instalará la última versión disponible 3.0.x) 
+
 <img width=600 alt="image" src="https://github.com/user-attachments/assets/ba6b3121-a3a6-457a-99ff-f346abf871c0" />
 
 Regresamos a Spyder y en la Terminal 1/A le das clic derecho y le das reiniciar el nucleo 
